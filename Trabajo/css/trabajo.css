@@ -1,0 +1,100 @@
+*{
+    margin: 0%;
+    font-size: 62.5%;
+}
+
+h1{
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 25px;
+    font-size: 5rem;
+}
+
+.imgEncabezado{
+  align-content: center;
+  justify-content: center;
+  display: flex;
+}
+
+nav ul{
+    display: flex;
+    border: 0.2rem solid black;
+    background-color: black;
+    justify-content: center;
+    justify-items: center;
+}
+
+nav ul li{
+    display: inline;
+    margin-right: 5rem;
+}
+
+nav ul li a{
+    color: white;
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+h2{
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
+
+.informacion,.tipos,.razon,.caa{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+
+p{
+    font-size: 1.7rem;
+}
+
+span{
+    font-size: 1.7rem;
+    font-weight: bold;
+}
+
+h3{
+    text-align: center;
+    font-size: 1.8rem;
+    margin-top: 3rem;
+    margin-bottom: 1rem;
+}
+
+.galeria{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.galeria img{
+    width: 30rem;
+    height: 20rem;
+}
+
+a{
+    font-size: 1.7rem;
+    color: blue;
+}
+
+.fuenteTrabajo, .fuenteInteres{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer{
+    padding: 2rem;
+    color: white;
+    background-color: black;
+    margin-top: 3rem;
+    font-size: 1.7rem;
+    text-align: center;
+}
